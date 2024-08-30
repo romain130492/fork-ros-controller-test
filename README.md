@@ -40,7 +40,7 @@ ros2 run ign_ros2_control_demos  pendulum_example_position
 
 
 
-Arm to try again
+- [] Finish up arm below
 
 ```
 ros2 launch ign_ros2_control_demos arm3.py

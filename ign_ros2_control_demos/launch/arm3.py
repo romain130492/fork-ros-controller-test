@@ -54,7 +54,7 @@ def generate_launch_description():
 
     load_gripper_controller = ExecuteProcess(
         cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
-             'gripper_controller'],
+             'base_link_to_link1_controller'],
         output='screen'
     )
 

@@ -8,7 +8,7 @@ print('re')
 class GripperTestNode(Node):
     def __init__(self):
         super().__init__('gripper_test_node')
-        self.publisher = self.create_publisher(Float64MultiArray, '/gripper_controller/commands', 10)
+        self.publisher = self.create_publisher(Float64MultiArray, '/base_link_to_link1_controller/commands', 10)
         self.get_logger().info('Node created')
 
     def send_commands(self):
@@ -20,12 +20,12 @@ class GripperTestNode(Node):
         sleep(1)
 
         # Command to set the gripper position to 0.38
-        commands.data = [0.38]
+        commands.data = [1.38]
         self.publisher.publish(commands)
         sleep(1)
 
         # Command to set the gripper position to 0.19
-        commands.data = [0.19]
+        commands.data = [2.31]
         self.publisher.publish(commands)
         sleep(1)
 

@@ -1,0 +1,11 @@
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/uninstall.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/ign_ros2_control_uninstall.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/ign_ros2_control-system.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/ign_hardware_plugins.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/test.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/edit_cache.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/rebuild_cache.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/list_install_components.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/install.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/install/local.dir
+/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/build/ign_ros2_control/CMakeFiles/install/strip.dir
