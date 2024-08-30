@@ -1,0 +1,158 @@
+[0.017s] Invoking command in '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.223s] -- The CXX compiler identification is GNU 11.4.0
+[0.231s] -- Detecting C compiler ABI info
+[0.350s] -- Detecting C compiler ABI info - done
+[0.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.357s] -- Detecting C compile features - done
+[0.364s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.559s] -- Detecting CXX compile features
+[0.560s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.766s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.835s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.893s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.921s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.924s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.937s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.950s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.966s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.087s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.125s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.127s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.339s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.404s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.466s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.476s] -- Looking for pthread.h
+[1.602s] -- Looking for pthread.h - found
+[1.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.797s] -- Found Threads: TRUE  
+[1.840s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.861s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.863s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.982s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.046s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.046s] -- Configured cppcheck include dirs: 
+[2.047s] -- Configured cppcheck exclude dirs and/or files: 
+[2.113s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.114s] -- Configured cpplint exclude dirs and/or files: 
+[2.126s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.139s] -- Added test 'lint_cmake' to check CMake code style
+[2.150s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.212s] -- Added test 'uncrustify' to check C / C++ code style
+[2.213s] -- Configured uncrustify additional arguments: 
+[2.221s] -- Added test 'xmllint' to check XML markup files
+[2.228s] -- Configuring done
+[2.357s] -- Generating done
+[2.367s] -- Build files have been written to: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos
+[2.373s] Invoked command in '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos
+[2.375s] Invoking command in '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos -- -j4 -l4
+[2.565s] [  6%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[5.977s] [ 12%] [32m[1mLinking CXX executable example_position[0m
+[6.315s] [ 12%] Built target example_position
+[6.442s] [ 18%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[9.150s] [ 25%] [32m[1mLinking CXX executable example_effort[0m
+[9.584s] [ 25%] Built target example_effort
+[9.625s] [ 31%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[12.290s] [ 37%] [32m[1mLinking CXX executable example_diff_drive[0m
+[12.550s] [ 37%] Built target example_diff_drive
+[12.605s] [ 43%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[14.931s] [ 50%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[15.102s] [ 50%] Built target example_tricycle_drive
+[15.131s] [ 56%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[17.239s] [ 62%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[17.415s] [ 62%] Built target example_ackermann_drive
+[17.450s] [ 68%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[19.496s] [ 75%] [32m[1mLinking CXX executable example_gripper[0m
+[19.716s] [ 75%] Built target example_gripper
+[19.739s] [ 81%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[21.877s] [ 87%] [32m[1mLinking CXX executable example_velocity[0m
+[22.090s] [ 87%] Built target example_velocity
+[22.115s] [ 93%] [32mBuilding CXX object CMakeFiles/example_arm.dir/examples/example_arm.cpp.o[0m
+[25.073s] [100%] [32m[1mLinking CXX executable example_arm[0m
+[25.269s] [100%] Built target example_arm
+[25.282s] Invoked command in '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos -- -j4 -l4
+[25.368s] Invoking command in '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos
+[25.376s] -- Install configuration: ""
+[25.377s] -- Execute custom install script
+[25.392s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[25.419s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/arm.launch.py
+[25.439s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/arm2.launch.py
+[25.448s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py
+[25.454s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py
+[25.458s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py
+[25.479s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py
+[25.480s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[25.480s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[25.480s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/pendulum_example_position.launch.py
+[25.482s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[25.493s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/ackermann_drive_controller.yaml
+[25.507s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/arm.yaml
+[25.512s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_effort.yaml
+[25.518s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_position.yaml
+[25.522s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_velocity.yaml
+[25.528s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[25.533s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/gripper_controller.yaml
+[25.538s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/tricycle_drive_controller.yaml
+[25.557s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/arm.urdf.xacro
+[25.558s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[25.561s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[25.567s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[25.571s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[25.584s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[25.594s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[25.599s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[25.604s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[25.610s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[25.616s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/base_link.dae
+[25.624s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/base_scaled_up1.dae
+[25.638s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_base.dae
+[25.644s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_left1.dae
+[25.652s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_left2.dae
+[25.657s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_left3.dae
+[25.673s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_right1.dae
+[25.680s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_right2.dae
+[25.694s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_right3.dae
+[25.700s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link1.dae
+[25.708s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link1.png
+[25.735s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link2.dae
+[25.753s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link2.png
+[25.763s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link3.dae
+[25.772s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link3.png
+[25.778s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link4.dae
+[25.783s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link4.png
+[25.789s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link5.dae
+[25.793s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link5.png
+[25.798s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link6.dae
+[25.802s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link6.png
+[25.808s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link7.dae
+[25.822s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link7.png
+[25.826s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/suit_env.dae
+[25.831s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//rviz/urdf_config.rviz
+[25.838s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position
+[25.845s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity
+[25.851s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort
+[25.859s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive
+[25.866s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive
+[25.874s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_ackermann_drive
+[25.878s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper
+[25.883s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos
+[25.887s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos
+[25.893s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh
+[25.897s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv
+[25.908s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh
+[25.913s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv
+[25.923s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash
+[25.939s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh
+[25.949s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh
+[25.960s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv
+[25.982s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv
+[25.997s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos
+[26.012s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake
+[26.044s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake
+[26.062s] -- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml
+[26.078s] Invoked command in '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos

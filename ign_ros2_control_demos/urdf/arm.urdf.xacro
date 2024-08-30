@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="mycobot_280">
+	
+	<xacro:property name="effort" value="5.0"/>
+	<xacro:property name="velocity" value="2.792527"/>
+
+	<link name="base_link">
+		<inertial>
+			<origin xyz="0 0 0.0" rpy="0 0 0"/>
+			<mass value="0.33"/>
+			<inertia
+				ixx="0.000784" ixy="0.0" ixz="0.0"
+				iyy="0.000867" iyz="0.0"
+				izz="0.001598"/>
+		</inertial>
+		<visual>
+			<geometry>
+				<mesh filename="file://$(find ign_ros2_control_demos)/meshes/mycobot_280/base_link.dae"/>
+			</geometry>
+			<origin xyz = "0.0 0 -0.03" rpy = "0 0 ${pi/2}"/>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="file://$(find ign_ros2_control_demos)/meshes/mycobot_280/base_link.dae"/>
+			</geometry>
+			<origin xyz = "0.0 0 -0.03" rpy = "0 0 ${pi/2}"/>
+		</collision>
+	</link>
+
+	<link name="link1">
+		<inertial>
+			<origin xyz="0 0 0.0" rpy="0 0 0"/>
+			<mass value="0.12"/>
+			<inertia
+				ixx="0.000148" ixy="0.0" ixz="0.0"
+				iyy="0.000148" iyz="0.0"
+				izz="0.000096"/>
+		</inertial>
+
+		<visual>
+		 <geometry>
+            <mesh filename="file://$(find ign_ros2_control_demos)/meshes/mycobot_280/link1.dae"/>
+        </geometry>
+			<origin xyz = "0.0 0 0 " rpy = " 0 0 ${-pi/2}"/>
+		</visual>
+
+		<collision>
+        <geometry>
+       <mesh filename="file://$(find ign_ros2_control_demos)/meshes/mycobot_280/link1.dae"/> 
+        </geometry>
+			<origin xyz = "0.0 0 0.0 " rpy = " 0 0 ${-pi/2}"/>
+		</collision>
+	</link>
+	
+
+    <link name="base_footprint"/>
+    <joint name="footprint_to_base_link" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint> 
+
+
+    <joint name="base_link_to_link1" type="revolute">
+		<axis xyz="0 0 1"/>
+		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+	    <dynamics damping="0.05" friction="0.05"/>
+    </joint>
+
+
+
+   <ros2_control name="GripperIgnition" type="system">
+    <hardware>
+      <plugin>ign_ros2_control/IgnitionSystem</plugin>
+    </hardware>
+
+	 <joint name="base_link_to_link1">
+      <command_interface name="position">
+        <param name="min">-2.879793</param>
+        <param name="max">2.879793</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.15</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+      <parameters>$(find ign_ros2_control_demos)/config/arm3.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

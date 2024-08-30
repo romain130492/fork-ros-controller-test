@@ -1,0 +1,8 @@
+[ 12%] Built target example_position
+[ 25%] Built target example_effort
+[ 37%] Built target example_diff_drive
+[ 50%] Built target example_tricycle_drive
+[ 62%] Built target example_ackermann_drive
+[ 75%] Built target example_gripper
+[ 87%] Built target example_velocity
+[ 93%] [32mBuilding CXX object CMakeFiles/example_arm.dir/examples/example_arm.cpp.o[0m

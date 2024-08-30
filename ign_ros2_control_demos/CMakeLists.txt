@@ -26,6 +26,8 @@ install(DIRECTORY
   launch
   config
   urdf
+  meshes
+  rviz
   DESTINATION share/${PROJECT_NAME}/
 )
 
@@ -35,6 +37,16 @@ ament_target_dependencies(example_position
   rclcpp_action
   control_msgs
 )
+
+
+add_executable(example_arm examples/example_arm.cpp)
+ament_target_dependencies(example_arm
+  rclcpp
+  rclcpp_action
+  control_msgs
+)
+
+
 
 add_executable(example_velocity examples/example_velocity.cpp)
 ament_target_dependencies(example_velocity
@@ -72,6 +84,11 @@ ament_target_dependencies(example_gripper
   std_msgs
 )
 
+install(PROGRAMS
+  examples/example_gripper.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_cmake_gtest REQUIRED)
   find_package(ament_lint_auto REQUIRED)
@@ -83,6 +100,7 @@ endif()
 install(
   TARGETS
     example_position
+    example_arm
     example_velocity
     example_effort
     example_diff_drive

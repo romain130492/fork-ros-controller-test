@@ -1,0 +1,426 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (ign_ros2_control_demos) JobQueued: {'identifier': 'ign_ros2_control_demos', 'dependencies': OrderedDict()}
+[0.000542] (ign_ros2_control_demos) JobStarted: {'identifier': 'ign_ros2_control_demos'}
+[0.014525] (ign_ros2_control_demos) JobProgress: {'identifier': 'ign_ros2_control_demos', 'progress': 'cmake'}
+[0.015076] (ign_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos'], 'cwd': '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1528'), ('SYSTEMD_EXEC_PID', '2321'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3080'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('JOURNAL_STREAM', '8:29049'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/parallels/.local/bin:/opt/ros/humble/bin:/home/parallels/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/2294,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/2294'), ('INVOCATION_ID', '39f2e5e286394801b32b9a5ed59bb561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4UQNT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20fd850ec3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos:/opt/ros/humble')]), 'shell': False}
+[0.099353] (-) TimerEvent: {}
+[0.148452] (ign_ros2_control_demos) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199442] (-) TimerEvent: {}
+[0.223963] (ign_ros2_control_demos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.231145] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.303675] (-) TimerEvent: {}
+[0.350243] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.356286] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.356781] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.357274] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.363762] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.404275] (-) TimerEvent: {}
+[0.504939] (-) TimerEvent: {}
+[0.547270] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.559290] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.559497] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.560202] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.570727] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.605031] (-) TimerEvent: {}
+[0.705505] (-) TimerEvent: {}
+[0.765686] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.805590] (-) TimerEvent: {}
+[0.834538] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.893174] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.905711] (-) TimerEvent: {}
+[0.921241] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.924214] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.937227] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.950743] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.966637] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.005798] (-) TimerEvent: {}
+[1.086792] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.111599] (-) TimerEvent: {}
+[1.125709] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.127131] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.211683] (-) TimerEvent: {}
+[1.312219] (-) TimerEvent: {}
+[1.338925] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.402268] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.412293] (-) TimerEvent: {}
+[1.466533] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.475957] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.512484] (-) TimerEvent: {}
+[1.602660] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.603223] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.612596] (-) TimerEvent: {}
+[1.712975] (-) TimerEvent: {}
+[1.793396] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.794547] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.813056] (-) TimerEvent: {}
+[1.840687] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.861225] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.863870] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.913144] (-) TimerEvent: {}
+[1.981926] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.013240] (-) TimerEvent: {}
+[2.046421] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.046884] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.047270] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.113361] (-) TimerEvent: {}
+[2.113756] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.114204] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.123331] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.139803] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.150513] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.212427] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.212859] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.213374] (-) TimerEvent: {}
+[2.220739] (ign_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.228436] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.313478] (-) TimerEvent: {}
+[2.357349] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Generating done\n'}
+[2.367366] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Build files have been written to: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos\n'}
+[2.373631] (ign_ros2_control_demos) CommandEnded: {'returncode': 0}
+[2.374339] (ign_ros2_control_demos) JobProgress: {'identifier': 'ign_ros2_control_demos', 'progress': 'build'}
+[2.375282] (ign_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos', '--', '-j4', '-l4'], 'cwd': '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1528'), ('SYSTEMD_EXEC_PID', '2321'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3080'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('JOURNAL_STREAM', '8:29049'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/parallels/.local/bin:/opt/ros/humble/bin:/home/parallels/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/2294,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/2294'), ('INVOCATION_ID', '39f2e5e286394801b32b9a5ed59bb561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4UQNT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20fd850ec3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos:/opt/ros/humble')]), 'shell': False}
+[2.413568] (-) TimerEvent: {}
+[2.514113] (-) TimerEvent: {}
+[2.565154] (ign_ros2_control_demos) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o\x1b[0m\n'}
+[2.614212] (-) TimerEvent: {}
+[2.714775] (-) TimerEvent: {}
+[2.818051] (-) TimerEvent: {}
+[2.920704] (-) TimerEvent: {}
+[3.021316] (-) TimerEvent: {}
+[3.125442] (-) TimerEvent: {}
+[3.225878] (-) TimerEvent: {}
+[3.326389] (-) TimerEvent: {}
+[3.426695] (-) TimerEvent: {}
+[3.528909] (-) TimerEvent: {}
+[3.629487] (-) TimerEvent: {}
+[3.730539] (-) TimerEvent: {}
+[3.831056] (-) TimerEvent: {}
+[3.937909] (-) TimerEvent: {}
+[4.038433] (-) TimerEvent: {}
+[4.139174] (-) TimerEvent: {}
+[4.239703] (-) TimerEvent: {}
+[4.340470] (-) TimerEvent: {}
+[4.441046] (-) TimerEvent: {}
+[4.544935] (-) TimerEvent: {}
+[4.645810] (-) TimerEvent: {}
+[4.750019] (-) TimerEvent: {}
+[4.850542] (-) TimerEvent: {}
+[4.951157] (-) TimerEvent: {}
+[5.051694] (-) TimerEvent: {}
+[5.152204] (-) TimerEvent: {}
+[5.252883] (-) TimerEvent: {}
+[5.354486] (-) TimerEvent: {}
+[5.455066] (-) TimerEvent: {}
+[5.555610] (-) TimerEvent: {}
+[5.656187] (-) TimerEvent: {}
+[5.756744] (-) TimerEvent: {}
+[5.857412] (-) TimerEvent: {}
+[5.957899] (-) TimerEvent: {}
+[5.977025] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX executable example_position\x1b[0m\n'}
+[6.058415] (-) TimerEvent: {}
+[6.159209] (-) TimerEvent: {}
+[6.259710] (-) TimerEvent: {}
+[6.315740] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 12%] Built target example_position\n'}
+[6.359800] (-) TimerEvent: {}
+[6.442454] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o\x1b[0m\n'}
+[6.459894] (-) TimerEvent: {}
+[6.560420] (-) TimerEvent: {}
+[6.660999] (-) TimerEvent: {}
+[6.761592] (-) TimerEvent: {}
+[6.862174] (-) TimerEvent: {}
+[6.962751] (-) TimerEvent: {}
+[7.063317] (-) TimerEvent: {}
+[7.163871] (-) TimerEvent: {}
+[7.264472] (-) TimerEvent: {}
+[7.365096] (-) TimerEvent: {}
+[7.465670] (-) TimerEvent: {}
+[7.566240] (-) TimerEvent: {}
+[7.666833] (-) TimerEvent: {}
+[7.767614] (-) TimerEvent: {}
+[7.869318] (-) TimerEvent: {}
+[7.970008] (-) TimerEvent: {}
+[8.071248] (-) TimerEvent: {}
+[8.172505] (-) TimerEvent: {}
+[8.277444] (-) TimerEvent: {}
+[8.378530] (-) TimerEvent: {}
+[8.478935] (-) TimerEvent: {}
+[8.581792] (-) TimerEvent: {}
+[8.682205] (-) TimerEvent: {}
+[8.782870] (-) TimerEvent: {}
+[8.883467] (-) TimerEvent: {}
+[8.984531] (-) TimerEvent: {}
+[9.085159] (-) TimerEvent: {}
+[9.150049] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable example_effort\x1b[0m\n'}
+[9.185275] (-) TimerEvent: {}
+[9.286495] (-) TimerEvent: {}
+[9.387349] (-) TimerEvent: {}
+[9.487631] (-) TimerEvent: {}
+[9.584293] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 25%] Built target example_effort\n'}
+[9.587787] (-) TimerEvent: {}
+[9.625586] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o\x1b[0m\n'}
+[9.687879] (-) TimerEvent: {}
+[9.788342] (-) TimerEvent: {}
+[9.888883] (-) TimerEvent: {}
+[9.989406] (-) TimerEvent: {}
+[10.090109] (-) TimerEvent: {}
+[10.190698] (-) TimerEvent: {}
+[10.291278] (-) TimerEvent: {}
+[10.391891] (-) TimerEvent: {}
+[10.492348] (-) TimerEvent: {}
+[10.592724] (-) TimerEvent: {}
+[10.693260] (-) TimerEvent: {}
+[10.793836] (-) TimerEvent: {}
+[10.894509] (-) TimerEvent: {}
+[10.995210] (-) TimerEvent: {}
+[11.095784] (-) TimerEvent: {}
+[11.196383] (-) TimerEvent: {}
+[11.296993] (-) TimerEvent: {}
+[11.398768] (-) TimerEvent: {}
+[11.499355] (-) TimerEvent: {}
+[11.599883] (-) TimerEvent: {}
+[11.700504] (-) TimerEvent: {}
+[11.801107] (-) TimerEvent: {}
+[11.901926] (-) TimerEvent: {}
+[12.004648] (-) TimerEvent: {}
+[12.105259] (-) TimerEvent: {}
+[12.205710] (-) TimerEvent: {}
+[12.290748] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable example_diff_drive\x1b[0m\n'}
+[12.305796] (-) TimerEvent: {}
+[12.406337] (-) TimerEvent: {}
+[12.506860] (-) TimerEvent: {}
+[12.550319] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 37%] Built target example_diff_drive\n'}
+[12.604908] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o\x1b[0m\n'}
+[12.606923] (-) TimerEvent: {}
+[12.707433] (-) TimerEvent: {}
+[12.807928] (-) TimerEvent: {}
+[12.908822] (-) TimerEvent: {}
+[13.009639] (-) TimerEvent: {}
+[13.109950] (-) TimerEvent: {}
+[13.210389] (-) TimerEvent: {}
+[13.310994] (-) TimerEvent: {}
+[13.411546] (-) TimerEvent: {}
+[13.512054] (-) TimerEvent: {}
+[13.612648] (-) TimerEvent: {}
+[13.713323] (-) TimerEvent: {}
+[13.813916] (-) TimerEvent: {}
+[13.914464] (-) TimerEvent: {}
+[14.015168] (-) TimerEvent: {}
+[14.115704] (-) TimerEvent: {}
+[14.216280] (-) TimerEvent: {}
+[14.316989] (-) TimerEvent: {}
+[14.417648] (-) TimerEvent: {}
+[14.517937] (-) TimerEvent: {}
+[14.618242] (-) TimerEvent: {}
+[14.718556] (-) TimerEvent: {}
+[14.818874] (-) TimerEvent: {}
+[14.919159] (-) TimerEvent: {}
+[14.931785] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable example_tricycle_drive\x1b[0m\n'}
+[15.019244] (-) TimerEvent: {}
+[15.102802] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 50%] Built target example_tricycle_drive\n'}
+[15.119404] (-) TimerEvent: {}
+[15.131092] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o\x1b[0m\n'}
+[15.219491] (-) TimerEvent: {}
+[15.319997] (-) TimerEvent: {}
+[15.420700] (-) TimerEvent: {}
+[15.521201] (-) TimerEvent: {}
+[15.621766] (-) TimerEvent: {}
+[15.722322] (-) TimerEvent: {}
+[15.822914] (-) TimerEvent: {}
+[15.923434] (-) TimerEvent: {}
+[16.023987] (-) TimerEvent: {}
+[16.124528] (-) TimerEvent: {}
+[16.225125] (-) TimerEvent: {}
+[16.325690] (-) TimerEvent: {}
+[16.426276] (-) TimerEvent: {}
+[16.526815] (-) TimerEvent: {}
+[16.627457] (-) TimerEvent: {}
+[16.728046] (-) TimerEvent: {}
+[16.828600] (-) TimerEvent: {}
+[16.929138] (-) TimerEvent: {}
+[17.029826] (-) TimerEvent: {}
+[17.130840] (-) TimerEvent: {}
+[17.231359] (-) TimerEvent: {}
+[17.239776] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable example_ackermann_drive\x1b[0m\n'}
+[17.331455] (-) TimerEvent: {}
+[17.415748] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 62%] Built target example_ackermann_drive\n'}
+[17.431536] (-) TimerEvent: {}
+[17.450041] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o\x1b[0m\n'}
+[17.531671] (-) TimerEvent: {}
+[17.632767] (-) TimerEvent: {}
+[17.733409] (-) TimerEvent: {}
+[17.833904] (-) TimerEvent: {}
+[17.936536] (-) TimerEvent: {}
+[18.036892] (-) TimerEvent: {}
+[18.137427] (-) TimerEvent: {}
+[18.238029] (-) TimerEvent: {}
+[18.338562] (-) TimerEvent: {}
+[18.439007] (-) TimerEvent: {}
+[18.539603] (-) TimerEvent: {}
+[18.640245] (-) TimerEvent: {}
+[18.740897] (-) TimerEvent: {}
+[18.841670] (-) TimerEvent: {}
+[18.942421] (-) TimerEvent: {}
+[19.043155] (-) TimerEvent: {}
+[19.143585] (-) TimerEvent: {}
+[19.243982] (-) TimerEvent: {}
+[19.344559] (-) TimerEvent: {}
+[19.444865] (-) TimerEvent: {}
+[19.496949] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable example_gripper\x1b[0m\n'}
+[19.544955] (-) TimerEvent: {}
+[19.645443] (-) TimerEvent: {}
+[19.716017] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 75%] Built target example_gripper\n'}
+[19.739342] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o\x1b[0m\n'}
+[19.752430] (-) TimerEvent: {}
+[19.857571] (-) TimerEvent: {}
+[19.957868] (-) TimerEvent: {}
+[20.058305] (-) TimerEvent: {}
+[20.158766] (-) TimerEvent: {}
+[20.259795] (-) TimerEvent: {}
+[20.360414] (-) TimerEvent: {}
+[20.461006] (-) TimerEvent: {}
+[20.561548] (-) TimerEvent: {}
+[20.662044] (-) TimerEvent: {}
+[20.762566] (-) TimerEvent: {}
+[20.863280] (-) TimerEvent: {}
+[20.963718] (-) TimerEvent: {}
+[21.064158] (-) TimerEvent: {}
+[21.164702] (-) TimerEvent: {}
+[21.265276] (-) TimerEvent: {}
+[21.365780] (-) TimerEvent: {}
+[21.466370] (-) TimerEvent: {}
+[21.566912] (-) TimerEvent: {}
+[21.667668] (-) TimerEvent: {}
+[21.768236] (-) TimerEvent: {}
+[21.869062] (-) TimerEvent: {}
+[21.877851] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable example_velocity\x1b[0m\n'}
+[21.969147] (-) TimerEvent: {}
+[22.069636] (-) TimerEvent: {}
+[22.090495] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 87%] Built target example_velocity\n'}
+[22.115265] (ign_ros2_control_demos) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/example_arm.dir/examples/example_arm.cpp.o\x1b[0m\n'}
+[22.169768] (-) TimerEvent: {}
+[22.271538] (-) TimerEvent: {}
+[22.372700] (-) TimerEvent: {}
+[22.473655] (-) TimerEvent: {}
+[22.574707] (-) TimerEvent: {}
+[22.675895] (-) TimerEvent: {}
+[22.776650] (-) TimerEvent: {}
+[22.877251] (-) TimerEvent: {}
+[22.978044] (-) TimerEvent: {}
+[23.078689] (-) TimerEvent: {}
+[23.179273] (-) TimerEvent: {}
+[23.279850] (-) TimerEvent: {}
+[23.380257] (-) TimerEvent: {}
+[23.480610] (-) TimerEvent: {}
+[23.581221] (-) TimerEvent: {}
+[23.689704] (-) TimerEvent: {}
+[23.790144] (-) TimerEvent: {}
+[23.890717] (-) TimerEvent: {}
+[23.991177] (-) TimerEvent: {}
+[24.092442] (-) TimerEvent: {}
+[24.193051] (-) TimerEvent: {}
+[24.293747] (-) TimerEvent: {}
+[24.394446] (-) TimerEvent: {}
+[24.495093] (-) TimerEvent: {}
+[24.595682] (-) TimerEvent: {}
+[24.696188] (-) TimerEvent: {}
+[24.796723] (-) TimerEvent: {}
+[24.897499] (-) TimerEvent: {}
+[24.998215] (-) TimerEvent: {}
+[25.072846] (ign_ros2_control_demos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_arm\x1b[0m\n'}
+[25.098468] (-) TimerEvent: {}
+[25.198978] (-) TimerEvent: {}
+[25.269177] (ign_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_arm\n'}
+[25.282075] (ign_ros2_control_demos) CommandEnded: {'returncode': 0}
+[25.299058] (-) TimerEvent: {}
+[25.351902] (ign_ros2_control_demos) JobProgress: {'identifier': 'ign_ros2_control_demos', 'progress': 'install'}
+[25.368524] (ign_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos'], 'cwd': '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1528'), ('SYSTEMD_EXEC_PID', '2321'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3080'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('JOURNAL_STREAM', '8:29049'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/parallels/.local/bin:/opt/ros/humble/bin:/home/parallels/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/2294,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/2294'), ('INVOCATION_ID', '39f2e5e286394801b32b9a5ed59bb561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4UQNT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20fd850ec3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/build/ign_ros2_control_demos'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos:/opt/ros/humble')]), 'shell': False}
+[25.376228] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.377260] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.392653] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/ackermann_drive_example.launch.py\n'}
+[25.399250] (-) TimerEvent: {}
+[25.418894] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/arm.launch.py\n'}
+[25.439250] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/arm2.launch.py\n'}
+[25.447640] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py\n'}
+[25.454299] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py\n'}
+[25.458786] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py\n'}
+[25.469022] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py\n'}
+[25.480090] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py\n'}
+[25.480239] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/pendulum_example_effort.launch.py\n'}
+[25.480330] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/pendulum_example_position.launch.py\n'}
+[25.482063] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/tricycle_drive_example.launch.py\n'}
+[25.493804] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/ackermann_drive_controller.yaml\n'}
+[25.499409] (-) TimerEvent: {}
+[25.507675] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/arm.yaml\n'}
+[25.512900] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_effort.yaml\n'}
+[25.518171] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_position.yaml\n'}
+[25.522930] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cart_controller_velocity.yaml\n'}
+[25.528395] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/diff_drive_controller_velocity.yaml\n'}
+[25.533780] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/gripper_controller.yaml\n'}
+[25.538600] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/tricycle_drive_controller.yaml\n'}
+[25.557584] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/arm.urdf.xacro\n'}
+[25.558137] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf\n'}
+[25.561064] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_effort.xacro.urdf\n'}
+[25.567487] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf\n'}
+[25.571808] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf\n'}
+[25.584359] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_diff_drive.xacro.urdf\n'}
+[25.594398] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf\n'}
+[25.599503] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf\n'}
+[25.599849] (-) TimerEvent: {}
+[25.604460] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf\n'}
+[25.610202] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf\n'}
+[25.616744] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/base_link.dae\n'}
+[25.624489] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/base_scaled_up1.dae\n'}
+[25.638576] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_base.dae\n'}
+[25.644184] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_left1.dae\n'}
+[25.652717] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_left2.dae\n'}
+[25.657911] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_left3.dae\n'}
+[25.673669] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_right1.dae\n'}
+[25.680216] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_right2.dae\n'}
+[25.694165] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/gripper_right3.dae\n'}
+[25.699956] (-) TimerEvent: {}
+[25.700595] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link1.dae\n'}
+[25.708030] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link1.png\n'}
+[25.735072] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link2.dae\n'}
+[25.753894] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link2.png\n'}
+[25.763696] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link3.dae\n'}
+[25.772422] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link3.png\n'}
+[25.778802] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link4.dae\n'}
+[25.783542] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link4.png\n'}
+[25.789206] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link5.dae\n'}
+[25.793438] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link5.png\n'}
+[25.798130] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link6.dae\n'}
+[25.800279] (-) TimerEvent: {}
+[25.802187] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link6.png\n'}
+[25.807793] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link7.dae\n'}
+[25.822536] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/link7.png\n'}
+[25.826599] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//meshes/mycobot_280/suit_env.dae\n'}
+[25.831808] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos//rviz/urdf_config.rviz\n'}
+[25.837973] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position\n'}
+[25.845023] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity\n'}
+[25.851671] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort\n'}
+[25.859076] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive\n'}
+[25.866477] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive\n'}
+[25.874137] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_ackermann_drive\n'}
+[25.878633] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper\n'}
+[25.883533] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos\n'}
+[25.887867] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos\n'}
+[25.893587] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh\n'}
+[25.897882] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv\n'}
+[25.900344] (-) TimerEvent: {}
+[25.908688] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh\n'}
+[25.913640] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv\n'}
+[25.922187] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash\n'}
+[25.939709] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh\n'}
+[25.949079] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh\n'}
+[25.955371] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv\n'}
+[25.982851] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv\n'}
+[25.997253] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos\n'}
+[26.000532] (-) TimerEvent: {}
+[26.012377] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake\n'}
+[26.044357] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake\n'}
+[26.062208] (ign_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /media/psf/Home/Desktop/business-1/test-repo/ros2-control-demo/gz_ros2_control/ign_ros2_control_demos/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml\n'}
+[26.078498] (ign_ros2_control_demos) CommandEnded: {'returncode': 0}
+[26.100611] (-) TimerEvent: {}
+[26.201073] (-) TimerEvent: {}
+[26.296522] (ign_ros2_control_demos) JobEnded: {'identifier': 'ign_ros2_control_demos', 'rc': 0}
+[26.297867] (-) EventReactorShutdown: {}
