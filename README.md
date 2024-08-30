@@ -37,7 +37,8 @@ ros2 run ign_ros2_control_demos  pendulum_example_position
 
 ----
 
-![Uploading Screenshot 2024-08-30 at 17.31.11.png…]()
+
+<img width="480" alt="Screenshot 2024-08-30 at 17 31 11" src="https://github.com/user-attachments/assets/f5920634-fcaa-48c8-a9d2-915c3ef8c256">
 
 
 
