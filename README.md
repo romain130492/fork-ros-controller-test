@@ -40,7 +40,7 @@ ros2 run ign_ros2_control_demos  pendulum_example_position
 
 
 
-- [] Finish up arm below
+- [] Finish up arm below with publishers.
 
 ```
 ros2 launch ign_ros2_control_demos arm3.py
